@@ -1,0 +1,1 @@
+ogr2ogr -append -f SQLite -nln ham_gardens -lco SPATIALITE=YES /Users/ryangarnett/Google\ Drive/Apodt_A_Hive/hamhives.sqlite /Users/ryangarnett/SpatialData/HamiltonCommunityGardens.kml
