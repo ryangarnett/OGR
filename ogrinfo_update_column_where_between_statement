@@ -1,0 +1,3 @@
+ogrinfo -dialect SQLite -sql "UPDATE table_name SET column_name = 'value' WHERE column_name BETWEEN value1 AND value2" location_and_file.ext
+
+ogrinfo -dialect SQLite -sql "UPDATE toronto_poles SET type = 'pole' WHERE elevation BETWEEN 75.30 AND 75.40" Y:\TopoUpdate\OpenData\toronto_poles.shp
