@@ -1,0 +1,3 @@
+ogrinfo -dialect SQLite -sql "UPDATE table_name SET column_name = CASE WHEN column_name = 'value' THEN 'value' WHEN column_name = 'value' THEN 'value' END" location_and_file.ext
+
+ogrinfo -dialect SQLite -sql "UPDATE toronto_poles SET type = CASE WHEN "Layer" = 'ELECTRIC_POLE_ESM" THEN 'pole' WHEN "Layer" = 'TTC_POST_ESM' THEN 'post' END" Y:\TopoUpdate\OpenData\toronto_poles.shp
