@@ -1,0 +1,3 @@
+ogrinfo -dialect sqlite -sql "SELECT column_name, COUNT(*) FROM table GROUP BY column_name HAVING COUNT(*) = value" location_and_file.ext >location_and_file.ext
+
+ogrinfo -dialect sqlite -sql "SELECT road_name, COUNT(*) FROM roads GROUP BY road_name HAVING COUNT(*) = 1" C:\SpatialData\roads.shp >C:\SpatialData\report.txt
