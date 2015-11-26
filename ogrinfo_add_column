@@ -1,0 +1,3 @@
+ogrinfo -sql "ALTER TABLE table_name ADD COLUMN column_name character(string length)" location_and_file.ext
+
+ogrinfo -sql "ALTER TABLE toronto_poles ADD COLUMN tester2 character(25)" Y:\TopoUpdate\OpenData\toronto_poles.shp
